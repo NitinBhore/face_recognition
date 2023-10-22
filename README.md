@@ -4,7 +4,8 @@ Facial recognition is a category of biometric software that maps an individual's
 This project that utlized 1.data augmentation on images using various techniques from libraries such as PIL, scikit-image, OpenCV, TensorFlow, and Matplotlib. 2.facial embeddings from images using the InsightFace library and organizes them into labeled folders. The embeddings are then saved to a pickle file.
 
 a Random Forest classifier using embeddings extracted from images. The embeddings are loaded from a pickle file, and the trained model is saved for later use. 4.Perform the script Automation
-Requirements
+
+# Requirements
 Before running the script, make sure you have the following requirements installed:
 
 Python==3.9.6
@@ -18,7 +19,8 @@ pip install matplotlib
 pip install imutils
 pip install insightface
 pip install onnxruntime
-Configuration
+
+# Configuration
 Create a config.ini file with the following structure:
 [Paths] model_file = models/ovr_svm.pickle Dataset=Dataset dataset_folder =DA_Output/Dataset_Train output_folder = processed_images output_directory = empickle
 
