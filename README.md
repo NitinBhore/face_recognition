@@ -44,8 +44,6 @@ Augmentaion Script: -Augmented images are saved in an output folder, preserving 
 
 Emebedding Script: -Extracted facial embeddings are saved in a pickle file with a timestamped filename in the specified output directory. -Processed images are organized into subfolders within the output folder, corresponding to their labels.
 
-trainning Script :
-
--The trained Random Forest model is saved to the specified model file. -The confusion matrix is saved to a CSV file named confusion_matrix.csv. -The classification report is saved to a text file named classification_report.txt.
+trainning Script: -The trained Random Forest model is saved to the specified model file. -The confusion matrix is saved to a CSV file named confusion_matrix.csv. -The classification report is saved to a text file named classification_report.txt.
 
 Main.script: -If each step (augmentation, embedding, and training) is successful, you will see the model's accuracy, confusion matrix, and classification report. -If any step encounters an error, it will be displayed in the console.
