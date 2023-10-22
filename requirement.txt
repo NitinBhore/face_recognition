@@ -1,0 +1,12 @@
+pip install onnxruntime
+pip install pillow
+pip install scikit-image
+pip install opencv-python
+pip install tensorflow
+pip install numpy
+pip install matplotlib
+pip install imutils
+pip install insightface
+pip install onnxruntime
+
+
